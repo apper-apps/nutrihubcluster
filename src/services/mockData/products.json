@@ -1,0 +1,162 @@
+[
+  {
+    "Id": 1,
+    "name": "Keto Salads",
+    "category": "Meals",
+    "price": 12.99,
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=300&fit=crop&crop=center",
+    "description": "Fresh mixed greens with avocado, grilled chicken, cherry tomatoes, and olive oil dressing. Perfect for maintaining ketosis.",
+    "nutrition": {
+      "calories": 320,
+      "protein": 28,
+      "carbs": 8,
+      "fat": 22,
+      "fiber": 6
+    },
+    "ingredients": ["Mixed greens", "Avocado", "Grilled chicken", "Cherry tomatoes", "Olive oil", "Lemon juice", "Herbs"]
+  },
+  {
+    "Id": 2,
+    "name": "Rajma Rice Bowls",
+    "category": "Meals",
+    "price": 10.99,
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=300&fit=crop&crop=center",
+    "description": "Authentic Indian kidney bean curry served over fragrant basmati rice. Rich in protein and fiber.",
+    "nutrition": {
+      "calories": 420,
+      "protein": 18,
+      "carbs": 65,
+      "fat": 8,
+      "fiber": 12
+    },
+    "ingredients": ["Kidney beans", "Basmati rice", "Onions", "Tomatoes", "Ginger", "Garlic", "Indian spices"]
+  },
+  {
+    "Id": 3,
+    "name": "Oats Ragi Cookies",
+    "category": "Snacks",
+    "price": 8.99,
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400&h=300&fit=crop&crop=center",
+    "description": "Wholesome cookies made with oats and ragi flour. Naturally sweetened and packed with nutrients.",
+    "nutrition": {
+      "calories": 180,
+      "protein": 5,
+      "carbs": 28,
+      "fat": 6,
+      "fiber": 4
+    },
+    "ingredients": ["Oats", "Ragi flour", "Jaggery", "Coconut oil", "Nuts", "Seeds"]
+  },
+  {
+    "Id": 4,
+    "name": "Apple Smoothie",
+    "category": "Beverages",
+    "price": 6.99,
+    "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=400&h=300&fit=crop&crop=center",
+    "description": "Refreshing blend of fresh apples, yogurt, and honey. Rich in vitamins and probiotics.",
+    "nutrition": {
+      "calories": 220,
+      "protein": 8,
+      "carbs": 45,
+      "fat": 3,
+      "fiber": 5
+    },
+    "ingredients": ["Fresh apples", "Greek yogurt", "Honey", "Cinnamon", "Ice"]
+  },
+  {
+    "Id": 5,
+    "name": "Healthy Pizza",
+    "category": "Meals",
+    "price": 14.99,
+    "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=400&h=300&fit=crop&crop=center",
+    "description": "Cauliflower crust pizza topped with fresh vegetables and lean protein. A guilt-free pizza experience.",
+    "nutrition": {
+      "calories": 380,
+      "protein": 25,
+      "carbs": 35,
+      "fat": 18,
+      "fiber": 8
+    },
+    "ingredients": ["Cauliflower crust", "Tomato sauce", "Mozzarella", "Bell peppers", "Mushrooms", "Spinach", "Grilled chicken"]
+  },
+  {
+    "Id": 6,
+    "name": "Chia Pudding",
+    "category": "Snacks",
+    "price": 7.99,
+    "image": "https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?w=400&h=300&fit=crop&crop=center",
+    "description": "Creamy chia seed pudding with coconut milk and fresh berries. High in omega-3 fatty acids.",
+    "nutrition": {
+      "calories": 250,
+      "protein": 8,
+      "carbs": 20,
+      "fat": 15,
+      "fiber": 12
+    },
+    "ingredients": ["Chia seeds", "Coconut milk", "Fresh berries", "Vanilla", "Maple syrup"]
+  },
+  {
+    "Id": 7,
+    "name": "Moringa Avocado Smoothie",
+    "category": "Beverages",
+    "price": 8.99,
+    "image": "https://images.unsplash.com/photo-1553530666-ba11a7da3888?w=400&h=300&fit=crop&crop=center",
+    "description": "Nutrient-dense smoothie with moringa powder, avocado, and banana. Packed with antioxidants and healthy fats.",
+    "nutrition": {
+      "calories": 290,
+      "protein": 6,
+      "carbs": 35,
+      "fat": 16,
+      "fiber": 10
+    },
+    "ingredients": ["Moringa powder", "Avocado", "Banana", "Coconut water", "Spinach", "Lime"]
+  },
+  {
+    "Id": 8,
+    "name": "Protein Puffs",
+    "category": "Snacks",
+    "price": 9.99,
+    "image": "https://images.unsplash.com/photo-1621939514649-280e2ee25f60?w=400&h=300&fit=crop&crop=center",
+    "description": "Crunchy protein-packed puffs made with plant-based protein. Perfect for post-workout snacking.",
+    "nutrition": {
+      "calories": 160,
+      "protein": 15,
+      "carbs": 12,
+      "fat": 7,
+      "fiber": 3
+    },
+    "ingredients": ["Pea protein", "Brown rice", "Nutritional yeast", "Sea salt", "Natural flavors"]
+  },
+  {
+    "Id": 9,
+    "name": "Protein Mini Khakra",
+    "category": "Snacks",
+    "price": 7.99,
+    "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=400&h=300&fit=crop&crop=center",
+    "description": "Crispy mini khakras fortified with protein powder. Traditional Indian snack with a healthy twist.",
+    "nutrition": {
+      "calories": 140,
+      "protein": 12,
+      "carbs": 18,
+      "fat": 4,
+      "fiber": 4
+    },
+    "ingredients": ["Whole wheat flour", "Protein powder", "Cumin seeds", "Turmeric", "Ghee", "Salt"]
+  },
+  {
+    "Id": 10,
+    "name": "Protein Bar",
+    "category": "Snacks",
+    "price": 4.99,
+    "image": "https://images.unsplash.com/photo-1564345855154-2e9b2cbb7a0a?w=400&h=300&fit=crop&crop=center",
+    "description": "Delicious protein bar with nuts, seeds, and natural sweeteners. Perfect for on-the-go nutrition.",
+    "nutrition": {
+      "calories": 230,
+      "protein": 20,
+      "carbs": 15,
+      "fat": 12,
+      "fiber": 6
+    },
+    "ingredients": ["Whey protein", "Almonds", "Dates", "Chia seeds", "Dark chocolate", "Coconut oil"]
+  }
+]
