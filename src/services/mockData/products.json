@@ -128,13 +128,13 @@
     "ingredients": ["Pea protein", "Brown rice", "Nutritional yeast", "Sea salt", "Natural flavors"]
   },
   {
+{
     "Id": 9,
     "name": "Protein Mini Khakra",
     "category": "Snacks",
     "price": 7.99,
-    "image": "https://images.unsplash.com/photo-1626132647523-66f4bf380027?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.app.goo.gl/n8sj772HewAJjpKL9",
     "description": "Crispy mini khakras fortified with protein powder. Traditional Indian snack with a healthy twist.",
-    "nutrition": {
       "calories": 140,
       "protein": 12,
       "carbs": 18,
