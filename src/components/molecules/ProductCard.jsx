@@ -69,53 +69,48 @@ const ProductCard = ({ product, className = '' }) => {
                 <p className="text-gray-500 text-xs">No image</p>
             </div>
         </div>
-    </div>
-    <div className="p-4">
+</div>
+    <div className="p-6">
         <div className="flex items-start justify-between mb-3">
             <div className="flex-1">
-                <div
-                    className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <h3 className="font-display font-semibold text-lg text-gray-900 mb-1 line-clamp-2">
+                    {product.name}
+                </h3>
+                <p className="text-gray-600 text-sm line-clamp-2">
+                    {product.description}
+                </p>
             </div>
-            <div className="p-6">
-                <div className="flex items-start justify-between mb-3">
-                    <div className="flex-1">
-                        <h3
-                            className="font-display font-semibold text-lg text-gray-900 mb-1 line-clamp-2">
-                            {product.name}
-                        </h3>
-                        <p className="text-gray-600 text-sm line-clamp-2">
-                            {product.description}
-                        </p>
-                    </div>
-                </div>
-                <div className="flex items-center justify-between mb-4">
-                    <div className="flex items-center space-x-4">
-                        {product.nutrition?.calories && <div className="flex items-center space-x-1 text-sm text-gray-600">
-                            <ApperIcon name="Flame" className="w-4 h-4" />
-                            <span>{product.nutrition.calories}cal</span>
-                        </div>}
-                        {product.nutrition?.protein && <div className="flex items-center space-x-1 text-sm text-gray-600">
-                            <ApperIcon name="Zap" className="w-4 h-4" />
-                            <span>{product.nutrition.protein}g protein</span>
-                        </div>}
-                    </div>
-                </div>
-                <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-2">
-                        <span className="text-2xl font-bold gradient-text">${product.price}
-                        </span>
-                    </div>
-                    <Button
-                        variant="primary"
-                        size="small"
-                        onClick={handleAddToCart}
-                        className="flex items-center space-x-2">
-                        <ApperIcon name="Plus" className="w-4 h-4" />
-                        <span>Add</span>
-                    </Button>
-                </div>
+            <Badge variant={getCategoryColor(product.category)} className="ml-2">
+                {product.category}
+            </Badge>
+        </div>
+        <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center space-x-4">
+                {product.nutrition?.calories && <div className="flex items-center space-x-1 text-sm text-gray-600">
+                    <ApperIcon name="Flame" className="w-4 h-4" />
+                    <span>{product.nutrition.calories}cal</span>
+                </div>}
+                {product.nutrition?.protein && <div className="flex items-center space-x-1 text-sm text-gray-600">
+                    <ApperIcon name="Zap" className="w-4 h-4" />
+                    <span>{product.nutrition.protein}g protein</span>
+                </div>}
             </div>
-        </div></div></Card>
+        </div>
+        <div className="flex items-center justify-between">
+            <div className="flex items-center space-x-2">
+                <span className="text-2xl font-bold gradient-text">${product.price}</span>
+            </div>
+            <Button
+                variant="primary"
+                size="small"
+                onClick={handleAddToCart}
+                className="flex items-center space-x-2">
+                <ApperIcon name="Plus" className="w-4 h-4" />
+                <span>Add</span>
+            </Button>
+        </div>
+    </div>
+</Card>
   )
 }
 

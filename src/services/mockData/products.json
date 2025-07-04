@@ -129,10 +129,10 @@
 },
   {
     "Id": 9,
-    "name": "Protein Mini Khakra",
+"name": "Protein Mini Khakra",
     "category": "Snacks",
     "price": 7.99,
-    "image": "https://images.app.goo.gl/n8sj772HewAJjpKL9",
+    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "description": "Crispy mini khakras fortified with protein powder. Traditional Indian snack with a healthy twist.",
     "nutrition": {
       "calories": 140,
