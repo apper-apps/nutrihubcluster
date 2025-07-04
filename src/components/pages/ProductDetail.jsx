@@ -115,17 +115,37 @@ const ProductDetail = () => {
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Product Image */}
-        <motion.div
+<motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <div className="aspect-square rounded-2xl overflow-hidden shadow-soft">
+          <div className="aspect-square rounded-2xl overflow-hidden shadow-soft bg-gray-100">
             <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-full object-cover"
+              src={product?.image}
+              alt={product?.name || 'Product image'}
+              className="w-full h-full object-cover transition-opacity duration-300"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+              onLoad={(e) => {
+                e.target.style.opacity = '1';
+                if (e.target.nextSibling) {
+                  e.target.nextSibling.style.display = 'none';
+                }
+              }}
+              style={{ opacity: 0 }}
             />
+            <div 
+              className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center"
+              style={{ display: 'none' }}
+            >
+              <div className="text-center">
+                <ApperIcon name="ImageOff" size={48} className="text-gray-400 mx-auto mb-2" />
+                <p className="text-gray-500 text-sm">Image not available</p>
+              </div>
+            </div>
           </div>
         </motion.div>
         
