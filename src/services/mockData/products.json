@@ -145,10 +145,10 @@
   },
   {
     "Id": 10,
-    "name": "Protein Bar",
+"name": "Protein Bar",
     "category": "Snacks",
     "price": 4.99,
-    "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "image": "https://images.app.goo.gl/tyevmuETKVf1LqQE9",
     "description": "Delicious protein bar with nuts, seeds, and natural sweeteners. Perfect for on-the-go nutrition.",
     "nutrition": {
       "calories": 230,
