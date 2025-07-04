@@ -6,6 +6,8 @@ import CategoryFilter from '@/components/molecules/CategoryFilter'
 import SearchBar from '@/components/molecules/SearchBar'
 import Loading from '@/components/ui/Loading'
 import Error from '@/components/ui/Error'
+import Button from '@/components/atoms/Button'
+import ApperIcon from '@/components/ApperIcon'
 import { productService } from '@/services/api/productService'
 
 const Home = () => {
@@ -115,14 +117,32 @@ const Home = () => {
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
           Discover our curated selection of nutritious meals, snacks, and beverages 
           designed to fuel your healthy lifestyle.
-        </p>
+</p>
+      </motion.div>
+      
+      {/* Watch Our Story Button */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1 }}
+        className="text-center mb-12"
+      >
+        <Button
+          variant="accent"
+          size="large"
+          onClick={() => window.open('https://www.youtube.com/watch?v=t5nhl3m2nPg', '_blank')}
+          className="inline-flex items-center space-x-2 hover:scale-105 transition-transform"
+        >
+          <ApperIcon name="Play" className="w-5 h-5" />
+          <span>Watch Our Story</span>
+        </Button>
       </motion.div>
       
       {/* Search and Filters */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
+        transition={{ delay: 0.2 }}
         className="mb-8 space-y-6"
       >
         <SearchBar 
@@ -139,11 +159,11 @@ const Home = () => {
         />
       </motion.div>
       
-      {/* Results Count */}
+{/* Results Count */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 0.2 }}
+        transition={{ delay: 0.3 }}
         className="mb-6"
       >
         <p className="text-gray-600">
@@ -153,11 +173,11 @@ const Home = () => {
         </p>
       </motion.div>
       
-      {/* Product Grid */}
+{/* Product Grid */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3 }}
+        transition={{ delay: 0.4 }}
       >
         <ProductGrid products={filteredProducts} />
       </motion.div>
