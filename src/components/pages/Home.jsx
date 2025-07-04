@@ -125,10 +125,10 @@ const Home = () => {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="text-center mb-12"
+className="text-center mb-12"
       >
         <Button
-          variant="accent"
+          variant="primary"
           size="large"
           onClick={() => window.open('https://www.youtube.com/watch?v=t5nhl3m2nPg', '_blank')}
           className="inline-flex items-center space-x-2 hover:scale-105 transition-transform"
@@ -137,7 +137,6 @@ const Home = () => {
           <span>Watch Our Story</span>
         </Button>
       </motion.div>
-      
       {/* Search and Filters */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
